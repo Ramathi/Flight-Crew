@@ -50,6 +50,28 @@
                     android:text="User DB"/>
             </LinearLayout>
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/AddAdmin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Add another Admin"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/adminSettings"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="settings"/>
+            </LinearLayout>
+
+
+
 
         </LinearLayout>
 

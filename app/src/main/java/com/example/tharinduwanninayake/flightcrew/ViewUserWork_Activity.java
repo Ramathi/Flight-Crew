@@ -12,7 +12,7 @@ public class ViewUserWork_Activity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.pastwork_layout);
+        setContentView(R.layout.viewwork_layout);
 
 
     }

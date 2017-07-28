@@ -3,11 +3,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="This is the user home"/>
+        android:text="Add Admin"/>
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,48 +15,57 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="250dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
-
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
-
-                    <Button
-                        android:id="@+id/userWorkFlow"
+                    <EditText
+                        android:id="@+id/emailCreate"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Work"/>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <Button
-                        android:id="@+id/workHistory"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Work history"/>
+                        android:hint="Email"/>
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <Button
-                        android:id="@+id/userSettings"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp">
+                    <EditText
+                        android:id="@+id/uNameCreate"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Settings"/>
+                        android:hint="Username"/>
                 </LinearLayout>
-
-
-
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp">
+                    <EditText
+                        android:id="@+id/uPassCreate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Password"/>
+                </LinearLayout>
             </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp">
+                <Button
+                    android:id="@+id/create"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Create user"
+                    android:background="#F9E79F"/>
+            </LinearLayout>
+
         </LinearLayout>
     </LinearLayout>
+
 </LinearLayout>
