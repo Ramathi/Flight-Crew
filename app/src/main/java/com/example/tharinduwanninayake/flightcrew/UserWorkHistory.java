@@ -14,5 +14,7 @@ public class UserWorkHistory extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.workhistory_layout);
+
+        //db call
     }
 }

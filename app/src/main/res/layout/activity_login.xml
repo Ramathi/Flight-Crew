@@ -27,7 +27,7 @@
                         android:id="@+id/uName"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="Username"/>
+                        android:hint="Email"/>
 
                 </LinearLayout>
                 <LinearLayout
@@ -35,6 +35,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp">
                     <EditText
+                        android:inputType="textPassword"
                         android:id="@+id/uPass"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"

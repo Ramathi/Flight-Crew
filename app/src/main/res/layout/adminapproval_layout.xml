@@ -7,7 +7,9 @@
         android:layout_height="wrap_content"
         android:text="Approval -Admin"/>
 
-
+<!--
+textfield + 2buttons ~
+-->
 
 
 </LinearLayout>

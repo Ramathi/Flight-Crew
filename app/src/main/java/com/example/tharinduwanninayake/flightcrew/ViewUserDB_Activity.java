@@ -14,5 +14,6 @@ public class ViewUserDB_Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.view_userdb_layout);
 
+        //select from user id- db
     }
 }

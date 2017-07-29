@@ -13,6 +13,5 @@ public class UserWork_activity extends AppCompatActivity {
     protected void onCreate( Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-
     }
 }
