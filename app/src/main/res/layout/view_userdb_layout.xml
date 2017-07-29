@@ -7,7 +7,5 @@
         android:layout_height="wrap_content"
         android:text=" user DB-Admin"/>
 
-    <!--
-        tableview ~ Add later-->
 
 </LinearLayout>
