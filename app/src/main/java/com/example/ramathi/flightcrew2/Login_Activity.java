@@ -33,7 +33,14 @@ public class Login_Activity extends AppCompatActivity {
         firebaseAuth = FirebaseAuth.getInstance();
     }
 
+
     public void btnUserLogin_Click(View v) {
+
+        //session
+        CurrentUser sessionEmail = new CurrentUser();
+        sessionEmail.setCurrentUserEmail(txtEmailLogin.getText().toString());
+
+
         final ProgressDialog progressDialog = ProgressDialog.show(Login_Activity.this, "Please wait...", "Proccessing...", true);
 
         (firebaseAuth.signInWithEmailAndPassword(txtEmailLogin.getText().toString(), txtPwd.getText().toString()))
